@@ -47,7 +47,7 @@
         //
         "editorGroup.background": "#1f2527",
         "tab.activeForeground": "#fff",
-        "tab.unfocusedActiveForeground": "#fff",
+        "tab.unfocusedActiveForeground": "#ffffff70",
         "tab.inactiveForeground": "#61616170",
         "tab.unfocusedInactiveForeground": "#61616170",
         "tab.inactiveBackground": "#293134",
@@ -70,7 +70,6 @@
         "editorIndentGuide.background": "#29313400",
         "editorIndentGuide.activeBackground": "#61616130",
         "editorRuler.foreground": "#61616130",
-        // "editorGroup.border": "#1f2527",
         "editorGroup.border": "#293134",
         "editorCursor.foreground": "#678cb1",
         "editorCursor.background": "#fafafa",
@@ -456,6 +455,13 @@
                 "foreground": "#CFCCC6"
             }
         },
+        // {
+        //     "name": "Operator Override",
+        //     "scope": ["punctuation", "text.html.basic"],
+        //     "settings": {
+        //         "foreground": "#bbbbbbff"
+        //     }
+        // },
         {
             "name": "Operator",
             "scope": [
