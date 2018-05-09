@@ -1,0 +1,12 @@
+{
+    // Remove visual fuzz
+    "editor.folding": false,
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "workbench.editor.showIcons": false,
+    "workbench.iconTheme": null,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false
+}
