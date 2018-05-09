@@ -70,6 +70,8 @@
         "editorIndentGuide.background": "#29313400",
         "editorIndentGuide.activeBackground": "#61616130",
         "editorRuler.foreground": "#61616130",
+        // "editorGroup.border": "#1f2527",
+        "editorGroup.border": "#293134",
         "editorCursor.foreground": "#678cb1",
         "editorCursor.background": "#fafafa",
         "editorOverviewRuler.border": "#293134",
@@ -88,7 +90,15 @@
         // "editor.lineHighlightBorder": "#1f2527",
         // "editorGutter.background": "#1f2527",
         "editorBracketMatch.background": "#678cb170",
-        "editorBracketMatch.border": "#678cb170"
+        "editorBracketMatch.border": "#678cb170",
+        // "editorOverviewRuler.findMatchForeground": "#fbff00",
+        // "editorOverviewRuler.selectionHighlightForeground": "#fbff00",
+        "editorOverviewRuler.wordHighlightForeground": "#fbff00",
+        // "editorOverviewRuler.wordHighlightStrongForeground": "#fbff00",
+        "editorOverviewRuler.addedForeground": "#293134",
+        "editorOverviewRuler.modifiedForeground": "#293134",
+        "editorOverviewRuler.deletedForeground": "#293134",
+        "editorOverviewRuler.bracketMatchForeground": "#293134"
     },
     "tokenColors": [
         {
