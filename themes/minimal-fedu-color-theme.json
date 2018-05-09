@@ -137,8 +137,8 @@
                 "support.constant.property-value.color"
             ],
             "settings": {
-                // "foreground": "#FCB650"
-                "foreground": "#88DD44"
+                "foreground": "#FCB650"
+                // "foreground": "#88DD44"
             }
         },
         {
