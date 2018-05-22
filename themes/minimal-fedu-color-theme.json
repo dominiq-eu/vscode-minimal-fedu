@@ -12,7 +12,7 @@
         "focusBorder": "#29313400",
         "selection.background": "#97CCF130",
         "titleBar.activeBackground": "#293134",
-        "progressBar.background": "#FCB650",
+        "progressBar.background": "#fcb650",
         //
         // -- Sidebar colors --
         //
@@ -20,7 +20,9 @@
         "activityBar.foreground": "#d7dae028",
         "sideBar.foreground": "#616161",
         "sideBar.background": "#1f2527",
-        "sideBarSectionHeader.foreground": "#1f2527",
+        // "sideBarSectionHeader.foreground": "#1f2527",
+        // "sideBarSectionHeader.foreground": "#61616130",
+        "sideBarSectionHeader.foreground": "#293134",
         "sideBar.border": "#293134",
         "sideBarTitle.foreground": "#616161",
         "sideBar.dropBackground": "#293134",
@@ -81,8 +83,8 @@
         // "editor.findMatchBackground": "#A082BD70",
         // "editor.findMatchHighlightBackground": "#678cb170",
         // "editor.findMatchBackground": "#2fa59f70",
-        // "editor.findMatchBackground": "#FCB65040",
-        "editor.findMatchBackground": "#FCB65070",
+        // "editor.findMatchBackground": "#fcb65040",
+        "editor.findMatchBackground": "#fcb65070",
         // "editor.findMatchHighlightBackground": "#678cb150",
         "editor.findMatchHighlightBackground": "#fbff0050",
         // "editor.lineHighlightBackground": "#1f2527",
@@ -123,7 +125,7 @@
                 "support.constant.property-value.string"
             ],
             "settings": {
-                "foreground": "#FCB650"
+                "foreground": "#fcb650"
             }
         },
         {
@@ -136,7 +138,7 @@
                 "support.constant.property-value.color"
             ],
             "settings": {
-                "foreground": "#FCB650"
+                "foreground": "#fcb650"
                 // "foreground": "#88DD44"
             }
         },
