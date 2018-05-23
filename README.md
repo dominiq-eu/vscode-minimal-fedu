@@ -6,9 +6,7 @@ Opionated theme that brings the simplicity and focus of the **Fedu** syntax them
 
 ## Disclaimer
 
-This theme should remove visual distraction and to archieve this it works with low contrast in some parts. I'm just sharing what works for me to make VS Code more minimal in design and remove visual clutter. I'm happily incorporate changes that respect that intention and fix rough edges.
-
-I'm didn't test the syntax coloring with much languages (JavaScript, HTML, Css, Markdown and Elm) and happily incoporate fixes that fix other languages.
+This theme is designed to remove visual distraction and to archieve this it works with low contrast in some parts. I'm just sharing what works for me to make VS Code more minimal in design and remove visual clutter. I'm happily incorporate changes that respect that intention and fix rough edges.
 
 ## Configuration
 
