@@ -1,12 +1,26 @@
 {
     "name": "minimal-fedu",
     "displayName": "Minimal Fedu",
-    "description":
-        "Opionated theme that brings the simplicity and focus of the Fedu syntax theme to the editor",
+    "description": "Chilled palette and easy to read code coloring for the whole editor.",
+    "license": "MIT",
     "version": "1.0.0",
     "publisher": "Dj",
+    "preview": true,
+    "keywords": [
+        "theme",
+        "minimal",
+        "fedu",
+        "dark"
+    ],
     "engines": {
         "vscode": "^1.23.0"
+    },
+    "repository": {
+         "type": "git",
+         "url": "https://github.com/pimml/vscode-minimal-fedu.git"
+    },
+    "bugs": {
+         "url": "https://github.com/pimml/vscode-minimal-fedu/issues"
     },
     "categories": ["Themes"],
     "contributes": {
