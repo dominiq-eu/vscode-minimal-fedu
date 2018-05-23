@@ -1,15 +1,14 @@
 {
     "name": "minimal-fedu",
     "displayName": "Minimal Fedu",
-    "description": "The great Fedu color theme with minimal editor chrome",
-    "version": "0.0.1",
+    "description":
+        "Opionated theme that brings the simplicity and focus of the Fedu syntax theme to the editor",
+    "version": "1.0.0",
     "publisher": "Dj",
     "engines": {
         "vscode": "^1.23.0"
     },
-    "categories": [
-        "Themes"
-    ],
+    "categories": ["Themes"],
     "contributes": {
         "themes": [
             {

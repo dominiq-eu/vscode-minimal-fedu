@@ -1,6 +1,8 @@
-# Fedu Full Conversation
+# Minimal Fedu
 
-Opionated theme that brings the simplicity and focus of the Fedu syntax theme to the whole editor. It's based on [Fedu](https://marketplace.visualstudio.com/items?itemName=Mustanaamio.theme-fedu) color theme, which is itself based on the [Eclipse theme](http://www.eclipsecolorthemes.org/?view=theme&id=30389).
+Opionated theme that brings the simplicity and focus of the **Fedu** syntax theme to the editor. It's based on [Fedu](https://marketplace.visualstudio.com/items?itemName=Mustanaamio.theme-fedu) color theme, which is itself based on the [Eclipse theme](http://www.eclipsecolorthemes.org/?view=theme&id=30389).
+
+![Screenshot](screenshot.png)
 
 ## Disclaimer
 
