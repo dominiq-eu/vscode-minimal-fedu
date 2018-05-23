@@ -6,6 +6,7 @@
     "version": "1.0.1",
     "publisher": "Dj",
     "preview": true,
+    "icon": "icon.png",
     "keywords": [
         "theme",
         "minimal",
