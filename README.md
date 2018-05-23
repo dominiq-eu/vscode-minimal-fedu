@@ -73,7 +73,7 @@ Don’t say I didn’t warn you everything might break.
 
 ## Credits
 
-Based on [Fedu](https://marketplace.visualstudio.com/items?itemName=Mustanaamio.theme-fedu) and took the **Going a Step Further** chapter from [Subliminal](https://github.com/gaearon/subliminal/blob/master/README.md)
+Based on [Fedu](https://marketplace.visualstudio.com/items?itemName=Mustanaamio.theme-fedu) and took the "Going a Step Further" chapter from [Subliminal](https://github.com/gaearon/subliminal/blob/master/README.md)
 
 ## License
 
