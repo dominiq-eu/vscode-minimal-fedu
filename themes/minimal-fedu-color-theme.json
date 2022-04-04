@@ -23,11 +23,11 @@
         // "sideBarSectionHeader.foreground": "#1f2527",
         // "sideBarSectionHeader.foreground": "#61616130",
         "sideBarSectionHeader.foreground": "#293134",
-        "sideBar.border": "#293134",
+        "sideBar.border": "#1f2527",
         "sideBarTitle.foreground": "#616161",
         "sideBar.dropBackground": "#293134",
-        "activityBarBadge.background": "#81969A",
         "activityBarBadge.foreground": "#293134",
+        "activityBarBadge.background": "#81969A",
         "sideBarSectionHeader.background": "#1f2527",
         //
         // -- Widget Colors --
@@ -47,15 +47,63 @@
         //
         // -- Tabs & Groups --
         //
-        "editorGroup.background": "#1f2527",
-        "tab.activeForeground": "#fff",
-        "tab.unfocusedActiveForeground": "#ffffff70",
-        "tab.inactiveForeground": "#61616170",
-        "tab.unfocusedInactiveForeground": "#61616170",
-        "tab.inactiveBackground": "#293134",
+        // "editorGroup.background": "#1f2527",
         "editorGroupHeader.tabsBackground": "#293134",
+        "tab.activeForeground": "#fff",
+        "tab.activeBackground": "#293134",
+        "tab.inactiveForeground": "#ffffff70",
+        "tab.inactiveBackground": "#293134",
+        "tab.hoverForeground": "#fff",
+        "tab.hoverBackground": "#293134", 
+        "tab.unfocusedHoverForeground": "#ffffff70",
+        "tab.unfocusedHoverBackground": "#293134",
+        "tab.unfocusedActiveForeground": "#ffffff70",
+        "tab.unfocusedActiveBackground": "#293134",
+        "tab.unfocusedInactiveForeground": "#61616170",
+        "tab.unfocusedInactiveBackground": "#293134",
         "tab.border": "#293134",
-        // "tab.hoverBackground": "#1f2527",
+        "tab.hoverBorder": "#293134",
+        "tab.lastPinnedBorder": "#293134",
+
+        // "editorGroupHeader.tabsBackground": "#1f2527",
+        // "tab.activeForeground": "#fff",
+        // "tab.activeBackground": "#293134",
+        // "tab.inactiveForeground": "#ffffff70",
+        // "tab.inactiveBackground": "#1f2527",
+        // "tab.hoverForeground": "#fff",
+        // "tab.hoverBackground": "#293134", 
+        // "tab.unfocusedHoverForeground": "#ffffff70",
+        // "tab.unfocusedHoverBackground": "#293134",
+        // "tab.unfocusedActiveForeground": "#ffffff70",
+        // "tab.unfocusedActiveBackground": "#293134",
+        // "tab.unfocusedInactiveForeground": "#61616170",
+        // "tab.unfocusedInactiveBackground": "#1f2527",
+        // "tab.border": "#1f2527",
+        // "tab.hoverBorder": "#293134",
+        // "tab.lastPinnedBorder": "#000", 
+
+        // "tab.activeBorderTop": "#000",
+        // "tab.unfocusedActiveBorderTop": "#000",
+
+        // "editorGroupHeader.tabsBackground": "#000",
+        // "tab.activeForeground": "#fff",
+        // "tab.activeBackground": "#293134",
+        // "tab.inactiveForeground": "#ffffff70",
+        // "tab.inactiveBackground": "#1f2527",
+        // "tab.hoverForeground": "#fff",
+        // "tab.hoverBackground": "#293134", 
+        // "tab.unfocusedHoverForeground": "#ffffff70",
+        // "tab.unfocusedHoverBackground": "#293134",
+        // "tab.unfocusedActiveForeground": "#ffffff70",
+        // "tab.unfocusedActiveBackground": "#293134",
+        // "tab.unfocusedInactiveForeground": "#61616170",
+        // "tab.unfocusedInactiveBackground": "#1f2527",
+        // "tab.border": "#1f2527",
+        // "tab.hoverBorder": "#293134",
+        // "tab.lastPinnedBorder": "#000",
+        // "tab.activeBorderTop": "#000",
+        // "tab.unfocusedActiveBorderTop": "#000",
+
         //
         // -- Editor Colors --
         //
@@ -72,7 +120,7 @@
         "editorIndentGuide.background": "#29313400",
         "editorIndentGuide.activeBackground": "#61616130",
         "editorRuler.foreground": "#61616130",
-        "editorGroup.border": "#293134",
+        "editorGroup.border": "#1f2527",
         "editorCursor.foreground": "#678cb1",
         "editorCursor.background": "#fafafa",
         "editorOverviewRuler.border": "#293134",
@@ -345,7 +393,7 @@
                 "entity.name.tag.table"
             ],
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "",
                 "foreground": "#9DA9B1"
             }
         },

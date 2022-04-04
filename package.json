@@ -5,7 +5,7 @@
     "license": "MIT",
     "version": "1.0.3",
     "publisher": "Dj",
-    "preview": true,
+    "preview": false,
     "icon": "icon.png",
     "keywords": [
         "theme",
@@ -17,13 +17,15 @@
         "vscode": "^1.23.0"
     },
     "repository": {
-         "type": "git",
-         "url": "https://github.com/pimml/vscode-minimal-fedu.git"
+        "type": "git",
+        "url": "https://github.com/dominiq-eu/vscode-minimal-fedu.git"
     },
     "bugs": {
-         "url": "https://github.com/pimml/vscode-minimal-fedu/issues"
+        "url": "https://github.com/dominiq-eu/vscode-minimal-fedu/issues"
     },
-    "categories": ["Themes"],
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
@@ -32,5 +34,11 @@
                 "path": "./themes/minimal-fedu-color-theme.json"
             }
         ]
+    },
+    "__metadata": {
+        "id": "36e52c63-8de9-4ec7-91b2-9c5e87de7e89",
+        "publisherDisplayName": "Dj",
+        "publisherId": "a8f85c66-eb3f-497e-b893-f0a295a52b20",
+        "isPreReleaseVersion": false
     }
 }

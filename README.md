@@ -24,6 +24,10 @@ This isn't just a theme for me, it's an attempt to trim down VS Code for a more 
     "workbench.statusBar.visible": false, // disable the StatusBar at the bottom
     "workbench.statusBar.feedback.visible": false,
     "workbench.activityBar.visible": false, // disable activitybar on left side
+
+    // Disable tab font coloring - It's very distracting.
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false
 ```
 
 This will disable the status bar and the activity bar. Memoize the shortcuts instead:
