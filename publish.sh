@@ -1,3 +1,3 @@
 #! /usr/bin/env sh
-vsce package
-vsce publish
+npx vsce package
+npx vsce publish
