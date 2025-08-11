@@ -32,8 +32,11 @@
         //
         // -- Widget Colors --
         //
-        "list.activeSelectionForeground": "#fafafa",
+        "list.activeSelectionForeground": "#fff",
         "list.activeSelectionBackground": "#81969A70",
+        // "list.errorForeground": "#ffffff70",
+        // "list.warningForeground": "#ffffff70",
+        // "list.invalidItemForeground": "#ffffff70",
         "button.background": "#678CB1",
         "dropdown.border": "#293134",
         "dropdown.background": "#616161",
@@ -54,7 +57,7 @@
         "tab.inactiveForeground": "#ffffff70",
         "tab.inactiveBackground": "#293134",
         "tab.hoverForeground": "#fff",
-        "tab.hoverBackground": "#293134", 
+        "tab.hoverBackground": "#293134",
         "tab.unfocusedHoverForeground": "#ffffff70",
         "tab.unfocusedHoverBackground": "#293134",
         "tab.unfocusedActiveForeground": "#ffffff70",
@@ -64,46 +67,8 @@
         "tab.border": "#293134",
         "tab.hoverBorder": "#293134",
         "tab.lastPinnedBorder": "#293134",
-
-        // "editorGroupHeader.tabsBackground": "#1f2527",
-        // "tab.activeForeground": "#fff",
-        // "tab.activeBackground": "#293134",
-        // "tab.inactiveForeground": "#ffffff70",
-        // "tab.inactiveBackground": "#1f2527",
-        // "tab.hoverForeground": "#fff",
-        // "tab.hoverBackground": "#293134", 
-        // "tab.unfocusedHoverForeground": "#ffffff70",
-        // "tab.unfocusedHoverBackground": "#293134",
-        // "tab.unfocusedActiveForeground": "#ffffff70",
-        // "tab.unfocusedActiveBackground": "#293134",
-        // "tab.unfocusedInactiveForeground": "#61616170",
-        // "tab.unfocusedInactiveBackground": "#1f2527",
-        // "tab.border": "#1f2527",
-        // "tab.hoverBorder": "#293134",
-        // "tab.lastPinnedBorder": "#000", 
-
-        // "tab.activeBorderTop": "#000",
-        // "tab.unfocusedActiveBorderTop": "#000",
-
-        // "editorGroupHeader.tabsBackground": "#000",
-        // "tab.activeForeground": "#fff",
-        // "tab.activeBackground": "#293134",
-        // "tab.inactiveForeground": "#ffffff70",
-        // "tab.inactiveBackground": "#1f2527",
-        // "tab.hoverForeground": "#fff",
-        // "tab.hoverBackground": "#293134", 
-        // "tab.unfocusedHoverForeground": "#ffffff70",
-        // "tab.unfocusedHoverBackground": "#293134",
-        // "tab.unfocusedActiveForeground": "#ffffff70",
-        // "tab.unfocusedActiveBackground": "#293134",
-        // "tab.unfocusedInactiveForeground": "#61616170",
-        // "tab.unfocusedInactiveBackground": "#1f2527",
-        // "tab.border": "#1f2527",
-        // "tab.hoverBorder": "#293134",
-        // "tab.lastPinnedBorder": "#000",
-        // "tab.activeBorderTop": "#000",
-        // "tab.unfocusedActiveBorderTop": "#000",
-
+        "list.inactiveSelectionBackground": "#1f2025",
+        "list.focusForeground": "#fff",
         //
         // -- Editor Colors --
         //
@@ -126,24 +91,12 @@
         "editorOverviewRuler.border": "#293134",
         "editorOverviewRuler.findMatchForeground": "#fbff00",
         "editor.selectionBackground": "#97CCF130",
-        // "editor.selectionBackground": "#1f2527",
         "editor.selectionForeground": "#fafafa",
-        // "editor.findMatchBackground": "#A082BD70",
-        // "editor.findMatchHighlightBackground": "#678cb170",
-        // "editor.findMatchBackground": "#2fa59f70",
-        // "editor.findMatchBackground": "#fcb65040",
         "editor.findMatchBackground": "#fcb65070",
-        // "editor.findMatchHighlightBackground": "#678cb150",
         "editor.findMatchHighlightBackground": "#fbff0050",
-        // "editor.lineHighlightBackground": "#1f2527",
-        // "editor.lineHighlightBorder": "#1f2527",
-        // "editorGutter.background": "#1f2527",
         "editorBracketMatch.background": "#678cb170",
         "editorBracketMatch.border": "#678cb170",
-        // "editorOverviewRuler.findMatchForeground": "#fbff00",
-        // "editorOverviewRuler.selectionHighlightForeground": "#fbff00",
         "editorOverviewRuler.wordHighlightForeground": "#fbff00",
-        // "editorOverviewRuler.wordHighlightStrongForeground": "#fbff00",
         "editorOverviewRuler.addedForeground": "#293134",
         "editorOverviewRuler.modifiedForeground": "#293134",
         "editorOverviewRuler.deletedForeground": "#293134",
@@ -152,7 +105,10 @@
     "tokenColors": [
         {
             "name": "Comments",
-            "scope": ["comment", "comment punctuation"],
+            "scope": [
+                "comment",
+                "comment punctuation"
+            ],
             "settings": {
                 "foreground": "#5D6971"
             }
@@ -199,7 +155,10 @@
         },
         {
             "name": "User-defined constant",
-            "scope": ["constant.character", "constant.other"],
+            "scope": [
+                "constant.character",
+                "constant.other"
+            ],
             "settings": {
                 "foreground": "#678CB1"
             }
@@ -289,7 +248,10 @@
         },
         {
             "name": "Library class/type",
-            "scope": ["support.type", "support.class"],
+            "scope": [
+                "support.type",
+                "support.class"
+            ],
             "settings": {
                 "foreground": "#E0E2E4"
             }
@@ -320,7 +282,10 @@
         },
         {
             "name": "diff.header",
-            "scope": ["meta.diff", "meta.diff.header"],
+            "scope": [
+                "meta.diff",
+                "meta.diff.header"
+            ],
             "settings": {
                 "foreground": "#75715E"
             }
@@ -362,7 +327,10 @@
         },
         {
             "name": "CSS value",
-            "scope": ["meta.property-value", "support.constant.property-value"],
+            "scope": [
+                "meta.property-value",
+                "support.constant.property-value"
+            ],
             "settings": {
                 "foreground": "#BFBCB6"
             }
@@ -375,10 +343,8 @@
             }
         },
         {
-            "name":
-                "meta.structure.dictionary.value.json string.quoted.double.json",
-            "scope":
-                "meta.structure.dictionary.value.json string.quoted.double.json",
+            "name": "meta.structure.dictionary.value.json string.quoted.double.json",
+            "scope": "meta.structure.dictionary.value.json string.quoted.double.json",
             "settings": {
                 "foreground": "#F0F0F0"
             }
@@ -429,7 +395,10 @@
         },
         {
             "name": "Markdown Titles",
-            "scope": ["entity.name.section.md", "entity.name.type.md"],
+            "scope": [
+                "entity.name.section.md",
+                "entity.name.type.md"
+            ],
             "settings": {
                 "foreground": "#7D8991"
             }
@@ -446,14 +415,20 @@
         },
         {
             "name": "Markdown Raw",
-            "scope": ["markup.raw.inline.md", "variable.md"],
+            "scope": [
+                "markup.raw.inline.md",
+                "variable.md"
+            ],
             "settings": {
                 "foreground": "#CFCCC6"
             }
         },
         {
             "name": "Markdown link braces",
-            "scope": ["punctuation.definition.metadata.md", "string.link.md"],
+            "scope": [
+                "punctuation.definition.metadata.md",
+                "string.link.md"
+            ],
             "settings": {
                 "foreground": "#B8A07D"
             }
@@ -528,7 +503,10 @@
         },
         {
             "name": "Tag XML",
-            "scope": ["tag.xml", "tag.html"],
+            "scope": [
+                "tag.xml",
+                "tag.html"
+            ],
             "settings": {
                 "foreground": "#7D8991"
             }
@@ -542,7 +520,10 @@
         },
         {
             "name": "Makefile Variables",
-            "scope": ["variable.language.makefile", "variable.other.makefile"],
+            "scope": [
+                "variable.language.makefile",
+                "variable.other.makefile"
+            ],
             "settings": {
                 "foreground": "#7D8991"
             }
